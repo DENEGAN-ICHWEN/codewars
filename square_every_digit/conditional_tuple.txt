@@ -1,0 +1,8 @@
+multiplier *= (10, 100)[digit > 3]
+
+A conditional tuple in Python is not a standard term but refers to a technique where 
+a tuple is used in conjunction with an indexing operation to simulate a conditional
+statement.
+  
+This technique leverages the fact that boolean values True and False can be used as indices in a tuple,
+ where False is equivalent to 0 and True is equivalent to 1.
